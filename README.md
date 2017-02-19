@@ -1,10 +1,9 @@
-# Magisk Hosts Adblock (MVPS)
+# h850-asgard-magiskmod
 
-overwrites /system/etc/hosts file with adblocked one ([MVPS](http://winhelp2002.mvps.org/hosts.htm)).
-current version: `January-23-2017`
+[lordodin912](https://forum.xda-developers.com/member.php?u=5264701)'s [Asgard v2.2 kernel](https://forum.xda-developers.com/lg-g5/development/stock-kernel-t3540157) with magisk v11.1 instead of SuperSU
 
 #### Tested on
-* LineageOS 14.1
+* Flumics 17
 
 #### Feedback / Help / Support
 * http://forum.xda-developers.com/apps/magisk/magisk-hosts-adblock-t3504717
