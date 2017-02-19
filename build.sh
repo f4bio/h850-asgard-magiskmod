@@ -11,7 +11,7 @@ rhash -c "$KERNEL_INPUT.zip.md5"
 
 unzip "$KERNEL_INPUT.zip"
 
-rm rootzip/SuperSU-v2.79-SR1.zip
+rm rootzip/SuperSU-*.zip
 cp Magisk-v11.1.zip rootzip/Magisk-v11.1.zip
 cp Magisk-v11.1.zip.md5 rootzip/Magisk-v11.1.zip.md5
 cp updater-script META-INF/com/google/android/updater-script
