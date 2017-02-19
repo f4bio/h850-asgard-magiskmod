@@ -1,7 +1,7 @@
 #
 /dist/
 /build/system/
-/build/*-magiskmod.zip*
+/build/*-magiskmod*
 /build/boot.img
 /build/META-INF/
 /build/rootzip/
