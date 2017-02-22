@@ -29,8 +29,8 @@ package_extract_file("boot.img", "/dev/block/bootdevice/by-name/boot");
 set_progress(0.700000);
 #ROOT
 package_extract_dir("rootzip", "/tmp/rootzip");
-run_program("/sbin/busybox", "unzip", "/tmp/rootzip/SuperSU-v2.79-SR1.zip", "META-INF/com/google/android/*", "-d", "/tmp/rootzip");
-run_program("/sbin/busybox", "sh", "/tmp/rootzip/META-INF/com/google/android/update-binary", "dummy", "1", "/tmp/rootzip/SuperSU-v2.79-SR1.zip");
+run_program("/sbin/busybox", "unzip", "/tmp/rootzip/Magisk-v11.1.zip", "META-INF/com/google/android/*", "-d", "/tmp/rootzip");
+run_program("/sbin/busybox", "sh", "/tmp/rootzip/META-INF/com/google/android/update-binary", "dummy", "1", "/tmp/rootzip/Magisk-v11.1.zip");
 set_progress(0.800000);
 set_progress(0.900000);
 unmount("/system");

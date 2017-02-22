@@ -6,4 +6,4 @@
 * Flumics 17
 
 #### Feedback / Help / Support
-* http://forum.xda-developers.com/apps/magisk/magisk-hosts-adblock-t3504717
+* https://forum.xda-developers.com/lg-g5/development/stock-kernel-t3540157
